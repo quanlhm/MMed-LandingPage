@@ -1,0 +1,51 @@
+/* Default button */
+.nav--button {
+  font-style: bold;
+  font-size: 16px;
+  border: 1px solid var(--header-color);
+  border-radius: 10px;
+  padding: 12px 52px;
+  transition:
+    background 0.2s ease-in,
+    color 0.2s ease-in,
+    border 0.2s ease-in,
+    opacity 0.2s ease-in;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.nav--button:hover {
+  cursor: pointer;
+}
+
+.nav--button.primary {
+  background-color: var(--header-color);
+  color: white;
+}
+.nav--button.primary:hover {
+  background-color: #174cb0;
+}
+
+.nav--button.secondary {
+  border: 1px solid var(--header-color);
+  background-color: transparent;
+  color: var(--header-color);
+}
+
+.nav--button.secondary:hover {
+  border: 1px solid var(--header-color);
+}
+
+@media (max-width: 1024px) {
+  .nav--button {
+  padding: 12px 40px;
+  font-size: 16px;
+}
+}
+
+@media (max-width: 768px) {
+  .nav--button {
+  padding: 12px 24px;
+  font-weight: 500;
+}
+}
+
