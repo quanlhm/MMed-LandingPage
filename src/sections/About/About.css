@@ -1,0 +1,25 @@
+.about {
+    width: 100%;
+}
+
+.about-container {
+    margin: 100px auto;
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

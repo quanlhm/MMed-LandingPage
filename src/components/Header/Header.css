@@ -2,7 +2,6 @@
   background: url("../../assets/images/header-bg.png") no-repeat center top;
   background-size: 100% auto;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
   max-width: 1440px;
   margin: 0 auto;
 }

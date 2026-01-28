@@ -1,5 +1,7 @@
 import { Hero,
   Features,
+  About,
+  Cooperation,
  } from '../src/sections.jsx';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <>
       <Hero/>
       <Features/>
+      <About />
+      <Cooperation />
     </>
   )
 }

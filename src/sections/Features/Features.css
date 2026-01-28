@@ -1,6 +1,6 @@
 .features {
   width: 100%;
-  overflow: hidden; /* Prevent horizontal scroll */
+  overflow: hidden; 
 }
 
 .features-container {
@@ -8,16 +8,23 @@
   padding: 0 75px;
   display: flex;
   flex-direction: column;
-  gap: 75px;
-  max-width: 1440px; 
+  gap: 50px;
+  max-width: 1440px;
   width: 100%;
 }
 
-
 @media (max-width: 768px) {
+  .features-title {
+    text-align: center;
+  }
   .features-container {
     padding: 0 30px;
-    margin: 50px auto;
-    gap: 40px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+    .features-container {
+    padding: 0;
   }
 }

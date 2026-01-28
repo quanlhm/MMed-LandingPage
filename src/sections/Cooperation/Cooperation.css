@@ -1,0 +1,28 @@
+.cooperation {
+    width: 100%;
+}
+
+.cooperation-container {
+    margin: 100px auto;
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.cooperation-images {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.cooperation-images {
+    /* max-width: 190px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
