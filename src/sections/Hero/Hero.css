@@ -76,11 +76,21 @@
 }
 
 
-@media (max-width: 479px) {
+@media (max-width: 610px) {
   .hero-container-left {
     display: none;
   }
   .hero-content {
     padding: 150px 10px 60px 10px;
+    gap: 0;
+    flex-direction: column;;
+  }
+
+  .hero-container-title {
+    font-size: 32px;
+  }
+
+  .hero-container-content {
+    font-size: 16px;
   }
 }

@@ -59,21 +59,37 @@
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .hero-card {
     max-width: 100%;
   }
 
-  .hero-card-content {
-    padding: 12px;
-    gap: 15px;
+  /* Hide image */
+  .hero-card-image {
+    display: none;
   }
 
-  .hero-card-image {
-    width: 50px;
-    min-width: 35px;
+  /* Stack content vertically */
+  .hero-card-content {
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .hero-card-right {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-card-title {
+    font-size: 20px;
+  }
+
+  .hero-card-description {
+    font-size: 14px;
   }
 }
+
 
 @media (min-width: 481px) and (max-width: 768px) {
   .hero-card-content {
