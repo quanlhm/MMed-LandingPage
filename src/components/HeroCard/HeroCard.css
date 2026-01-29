@@ -9,6 +9,10 @@
   border-radius: 15px;
 }
 
+.hero-card:hover {
+  transform: translateY(-5px);
+}
+
 .hero-card-content {
   flex: 1;
   display: flex;
@@ -46,14 +50,13 @@
 
 .hero-card-title {
   font-weight: 700;
-  font-size: clamp(16px, 4vw, 20px);
   word-wrap: break-word;
 }
 
 .hero-card-description {
   color: var(--header-color);
-  font-size: clamp(12px, 3vw, 14px);
   word-wrap: break-word;
+  text-align: center;
 }
 
 @media (max-width: 480px) {

@@ -10,7 +10,7 @@
     color 0.2s ease-in,
     border 0.2s ease-in,
     opacity 0.2s ease-in;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);;
 }
 
 .nav--button:hover {
@@ -22,17 +22,18 @@
   color: white;
 }
 .nav--button.primary:hover {
-  background-color: #174cb0;
+  background-color: #3369cd;
 }
 
 .nav--button.secondary {
   border: 1px solid var(--header-color);
-  background-color: transparent;
+  background-color: white;
   color: var(--header-color);
 }
 
 .nav--button.secondary:hover {
   border: 1px solid var(--header-color);
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {

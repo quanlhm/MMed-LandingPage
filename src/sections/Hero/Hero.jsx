@@ -10,7 +10,7 @@ import Img4 from "../../assets/images/hero-card-4.png";
 export default function Hero() {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="hero">
         <Header />
         <div className="hero-container">
           <div className="hero-content">
@@ -33,7 +33,9 @@ export default function Hero() {
                   <HeroCard
                     img={Img1}
                     title="30,000"
-                    content="Chuyên Gia Y Tế Đã Tham Gia Cộng Đồng MMed"
+                    content={
+                      <span>Chuyên Gia Y Tế <br /> Đã Tham Gia Cộng Đồng MMed</span>
+                    }
                   />
                   <HeroCard
                     img={Img2}

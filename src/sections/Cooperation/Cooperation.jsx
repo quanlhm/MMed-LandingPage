@@ -4,7 +4,7 @@ import Img from "../../assets/images/cooperation-img.png";
 export default function Cooperation() {
   return (
     <>
-      <section className="cooperation">
+      <section className="cooperation" id="cooperation">
         \
         <div className="cooperation-container">
           <div className="cooperation-title heading weight--700 size--40">
@@ -13,12 +13,6 @@ export default function Cooperation() {
             trên MMed.
           </div>
           <div className="cooperation-images">
-            <div className="cooperation-image">
-              <img src={Img} alt="Cooperation Image" />
-            </div>
-            <div className="cooperation-image">
-              <img src={Img} alt="Cooperation Image" />
-            </div>
             <div className="cooperation-image">
               <img src={Img} alt="Cooperation Image" />
             </div>

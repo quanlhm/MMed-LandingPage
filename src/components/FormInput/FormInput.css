@@ -1,0 +1,39 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.input-field {
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #10398226;
+    width: 100%;
+    height: auto;
+    max-height: 80px;
+    padding: 40px 16px;
+    border: none; 
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.input-field:focus {
+    outline: 1px solid #007aff;
+}
+
+.input-field.textarea-field {
+    max-height: none;
+    font-family: "Nunito", sans-serif;
+}
+
+.connect-form-grid-item span {
+    color: red;
+}
+
+.connect-form-grid-item input::placeholder,
+.connect-form-grid-item textarea::placeholder {
+    opacity: 0.6;
+}

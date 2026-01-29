@@ -1,0 +1,26 @@
+.study {
+    width: 100%;
+}
+
+.study-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.study-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .study-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -4,7 +4,7 @@
 }
 
 .features-container {
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 0 75px;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,7 @@
 
 @media (max-width: 768px) {
   .features-title {
+    padding: 0 10px;
     text-align: center;
   }
   .features-container {
@@ -26,5 +27,6 @@
 @media (max-width: 600px) {
     .features-container {
     padding: 0;
+    gap:0;
   }
 }

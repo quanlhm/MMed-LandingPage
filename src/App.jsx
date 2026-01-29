@@ -1,18 +1,17 @@
-import { Hero,
-  Features,
-  About,
-  Cooperation,
- } from '../src/sections.jsx';
+import { Hero, Features, Study, Cooperation, About, Connect, Footer } from "../src/sections.jsx";
 
 function App() {
   return (
     <>
-      <Hero/>
-      <Features/>
-      <About />
+      <Hero />
+      <Features />
+      <Study />
       <Cooperation />
+      <About />
+      <Connect />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -3,6 +3,7 @@
   max-width: 100%;
   overflow: hidden;
   position: relative;
+  padding-top: 20px;
 }
 
 .swiper-button-prev,
@@ -12,6 +13,12 @@
   height: 48px;
   z-index: 20;
 }
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 0.6;
+}
+
 
 .slider-wrapper .swiper {
   width: 100%;
@@ -41,3 +48,6 @@
   opacity: 1;
   background: var(--header-color, #1e3a8a);
 }
+
+
+

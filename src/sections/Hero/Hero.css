@@ -3,10 +3,13 @@
   flex-direction: column;
   min-height: 100vh; 
   height: auto;
+  max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
 }
 .hero-container {
-  margin-top: -6px;
+  margin: 80px auto;
+  width: 100%;
   background-color: #d9f5f9;
   flex: 1;
   display: flex;
@@ -68,6 +71,16 @@
   }
   .hero-content {
     margin: 0 auto;
-    padding: 60px 60px 60px 75px;
+    padding: 150px 20px 60px 20px;
+  }
+}
+
+
+@media (max-width: 479px) {
+  .hero-container-left {
+    display: none;
+  }
+  .hero-content {
+    padding: 150px 10px 60px 10px;
   }
 }
